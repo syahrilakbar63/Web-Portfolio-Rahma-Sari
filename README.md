@@ -31,7 +31,7 @@ Halaman kontak memberikan cara bagi pengunjung untuk menghubungi Rahma Sari. Ini
 
 ## Cara Menjalankan Proyek
 
-1. Clone repositori ini: `[git clone https://github.com/username/portfolio-rahma-sari.git](https://github.com/syahrilakbar63/Web-Portfolio-Rahma-Sari.git)`
+1. Clone repositori ini: `https://github.com/syahrilakbar63/Web-Portfolio-Rahma-Sari.git`
 2. Buka file `index.html` menggunakan browser web.
 
 ## Lisensi
