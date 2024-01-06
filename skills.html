@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <!-- Meta informasi untuk set karakter dan tampilan -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    
+    <!-- Judul dari halaman web -->
+    <title>Keahlian Saya</title>
+    
+    <!-- Tautan stylesheet eksternal -->
+    <link rel="styleSheet" href="css/Style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    
+    <!-- Tautan script eksternal -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    
+    <!-- Tautan stylesheet Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    
+    <!-- Gaya inline untuk navbar -->
+    <style>
+        .navbar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 9999;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigasi -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">MyPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- Tautan Navigasi -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="about.html">Tentang</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="skills.html">Keahlian</a>
+                    </li>
+                    <li class="nav-item" style="margin-right: 10px;">
+                        <a class="nav-link" href="contact.html">Kontak</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Bagian Keahlian -->
+    <section class="skills" id="skills">
+        <div class="max-width">
+            <h2 class="title">Keahlian Saya</h2>
+            <div class="skills-content">
+                <div class="column left">
+                    <div class="text">Keahlian kreatif dan pengalaman saya.</div>
+                    <!-- Deskripsi keahlian dan pengalaman -->
+                    <p>Saya terampil dalam mengimplementasikan solusi kreatif dalam pengembangan perangkat lunak. Pengalaman saya melibatkan berbagai proyek, dari aplikasi web sederhana hingga sistem manajemen basis data kompleks. Selama perjalanan karir saya, saya telah berhasil meningkatkan keterampilan teknis saya, termasuk keahlian tingkat lanjut dalam HTML, CSS, dan JavaScript.</p>
+                    <p>Saya memahami pentingnya komunikasi yang efektif dalam dunia pengembangan perangkat lunak. Keterampilan komunikasi saya membantu saya berkolaborasi dengan tim, mengartikulasikan ide-ide kompleks dengan jelas, dan memahami kebutuhan pengguna secara menyeluruh. Ini menjadi dasar keberhasilan proyek-proyek yang telah saya tangani.</p>
+                    <p>Pengalaman saya dalam menyelesaikan tantangan teknis dan situasi kompleks memberikan saya keunggulan dalam penyelesaian masalah. Saya telah bekerja pada proyek-proyek yang memerlukan pemecahan masalah instan dan kreatif, membantu tim mencapai tujuan mereka dengan efisien.</p>
+                    <p>Kemampuan saya dalam bekerja dalam tim membuat saya mampu berkontribusi secara positif terhadap dinamika kelompok. Saya memiliki pengalaman yang sukses dalam berkolaborasi dengan anggota tim yang beragam latar belakang, mendukung visi bersama, dan mencapai hasil yang memuaskan.</p>
+                    <p>Keahlian saya bukan hanya terbatas pada dunia teknis. Sifat paling sabar saya membantu saya tetap tenang dan fokus dalam menghadapi tantangan. Saya percaya bahwa ketekunan dan kesabaran adalah kunci untuk mencapai keberhasilan dalam setiap aspek kehidupan dan pekerjaan.</p>
+                    <a href="#">Baca selengkapnya</a>
+                </div>
+                <div class="column right">
+                    <!-- Bar keahlian individual dengan persentase -->
+                    <div class="bars">
+                        <div class="info">
+                            <span>Keterampilan</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="line keterampilan"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Komunikasi</span>
+                            <span>80%</span>
+                        </div>
+                        <div class="line komunikasi"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Penyelesaian Masalah</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="line penyelesaianMasalah"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Kerja Tim</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="line kerjaTim"></div>
+                    </div>
+                    <div class="bars">
+                        <div class="info">
+                            <span>Paling Sabar</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="line palingSabar"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bagian Footer -->
+    <footer class="bg-dark text-light p-4">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12 text-center">
+              <!-- Informasi hak cipta -->
+              <p>&copy; <span id="tahun-copyright"></span> Rahma Sari. Hak Cipta Dilindungi.</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Tautan script eksternal Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Berkas skrip lokal -->
+    <script src="js/Script.js"></script>
+</body>
+</html>
